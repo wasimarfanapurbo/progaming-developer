@@ -8,7 +8,11 @@ h1 {
     font-size: 50px;
 }
 
-section {
+.color-orange {
+    color: orange;
+}
+
+.section1 {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -22,7 +26,7 @@ section {
 
 .img {
     width: 50%;
-    margin-left: 5px;
+    margin-left: 20px;
 
 }
 
@@ -46,4 +50,30 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.section3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+
+.experiences-item {
+    width: 80%;
+
+    margin: 0% 5%;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#full-stack-web-developer {
+    border-left: 7px solid red;
+}
+
+#baby-web-developer {
+    border-left: 7px solid green;
+}
+
+footer h4 {
+    text-align: center;
 }
