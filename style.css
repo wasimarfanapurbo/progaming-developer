@@ -12,6 +12,7 @@ section {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .text1 {
@@ -39,4 +40,10 @@ section {
     border-radius: 18px;
     font-size: 700;
 
+}
+
+.section2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
